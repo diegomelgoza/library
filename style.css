@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+    background-color: #4e4e4e;
+    display: inline-table;  
+}
+
+th {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 24px;
+    width: 100vw;
+}
+
+#btn {
+    text-align: center;
+    margin: 20px;
+}
+
+#addBook {
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(214, 212, 213);
+}
+
+#addBook:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#form {
+    display: none;
+    text-align: center;
+}
+
+form {
+    display: inline-table;
+    border: .5px solid gray;
+    border-radius: 5px;
+    padding: 0px 20px 10px 20px;
+    font-size: large;
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+#submit {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: .5px solid gray;
+    background-color: rgb(214, 212, 213);
+}
+
+#x {
+    position: relative;
+    right: -101px;
+    top: 0px;
+    color: gray;
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+}
+

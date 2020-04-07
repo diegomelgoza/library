@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>My Library</h1>
+        <table id="container">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                    <th>Remove</th> 
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+        </table>
+        <div id="btn">
+            <button id="addBook" onclick="addBookToLibrary()">Add Book</button>
+        </div>
+        <div id="form">
+            <form>
+                <button type="submit" id="x" onclick="close()">x</button>
+                <div id="table">
+                   <label for="title">Title</label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="author">Author's Name</label><br>
+                    <input type="text" id="author" name="author"><br>
+                    <label for="pages">Pages</label><br>
+                    <input type="text" id="pages" name="pages"><br>
+                    <label for="read">Read</label><br>
+                    <select id="read">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="reading">Reading</option>
+                    </select><br>
+                    <button type="submit" id="submit">Submit</button> 
+                </div>  
+            </form> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
