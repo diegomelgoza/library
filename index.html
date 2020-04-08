@@ -8,23 +8,23 @@
         <h1>My Library</h1>
         <table id="container">
             <thead>
-                <tr>
+                <tr id="firstRow">
                     <th>Title</th>
                     <th>Author</th>
                     <th>Pages</th>
                     <th>Read</th>
                     <th>Remove</th> 
                 </tr>
-              </thead>
-              <tbody id="table-body"></tbody>
+            </thead>
+            <tbody id="table-body"></tbody>
         </table>
         <div id="btn">
-            <button id="addBook" onclick="addBookToLibrary()">Add Book</button>
+            <button id="addBook" onclick="openForm()">Add Book</button>
         </div>
-        <div id="form">
+        <div id="bookForm">
+            <button id="x" onclick="closeForm()">x</button>
             <form>
-                <button type="submit" id="x" onclick="close()">x</button>
-                <div id="table">
+                <div id="form-table">
                    <label for="title">Title</label><br>
                     <input type="text" id="title" name="title"><br>
                     <label for="author">Author's Name</label><br>
@@ -33,9 +33,9 @@
                     <input type="text" id="pages" name="pages"><br>
                     <label for="read">Read</label><br>
                     <select id="read">
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                        <option value="reading">Reading</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <option value="Reading">Reading</option>
                     </select><br>
                     <button type="submit" id="submit">Submit</button> 
                 </div>  
